@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maleesha's Website</title>
+    <link rel = "stylesheet" href = "style.css">
+    <script src="https://kit.fontawesome.com/1b2495ad6e.js" crossorigin="anonymous"></script>
+    
+
+</head>
+<body>
+
+    <video id="video-background" autoplay loop muted>
+        <source src="E:\Portfolio\video.mp4" type="video/mp4">
+        <!-- Add additional source elements for different video formats -->
+    </video>
+    
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="path/to/logo.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+                <i class="fas fa-times" onclick="closeMenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Undergraduate</p>
+                <h1>
+                    Hi, I'm <span id="typing-text1"></span> <br>
+                    <span id="typing-text2"></span><span class="cursor"></span>
+                </h1>
+            </div>
+        </div>
+    </div>
+    
+    <section id = "about">
+
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="E:\Portfolio\Untitled design 12.png" alt="">
+                    </div>  
+                    <div class="about-col-2">
+                        <h1 class="sub-title">About Me</h1><br>
+                        <p>I am an undergraduate student pursuing a BSc (HONS) in Information and Communication Engineering at SLTC Research University, Sri Lanka. 
+                            Passionate about Data Science,Machine Learning and Artificial Intelligence. 
+                            I am dedicated to expanding my skills and creating impactful digital solutions.</p>
+                       
+                            <div class="tab-titles">
+                            <p class="tab-links active-link" onclick = "opentab ('Skills') "> Skills</p>
+                            <p class="tab-links" onclick = "opentab ('Experience')" >Experience</p>
+                            <p class="tab-links" onclick = "opentab ('Education')">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id = "Skills">
+                            <ul>
+                                <li><span>Python</span><br></li>
+                                <li><span>Statistics</span><br></li>
+                                <li><span>JAVA Development</span><br</li>
+                                <li><span>SQL</span><br></li>
+                                <li><span>Excel</span><br></li>
+                                
+                            </ul>
+                        </div>
+                        <div class = "tab-contents" id = "Experience">
+    
+                        <ul>
+                            <li><span>Data Entry Operator</span><br></li>
+                            <li><span>Operation Assistant</span><br</li>
+                            <li><span>Mathematics Teacher</span><br></li>
+                            <li><span></span><br></li>
+                        </ul>
+                    </div>   
+    
+                    <div class="tab-contents" id = "Education">
+                        
+                        <ul>
+                            <li><span>ICE SLTC</span><br></li>
+                            <li><span>GCE A/L 2020</span><br></li>
+                            <li><span>GCE O/L 2016</span><br</li>
+                            <li><span>JAVA MAster Course</span><br></li>
+                        </ul>
+                        
+    
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+
+    </section>
+    
+
+<!-------------------Services------------------------------------------->
+<section id="services">
+    <div class="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1><br>
+            <div class="services-list">
+                <div>
+                    <i class="fas fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dictum ex a lacus lacinia, et efficitur nisi ullamcorper</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fas fa-crop-simple"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dictum ex a lacus lacinia, et efficitur nisi ullamcorper</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fab fa-app-store"></i>
+                    <h2>APP Development</h2>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In dictum ex a lacus lacinia, et efficitur nisi ullamcorper</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+        <!-----------------Portfolio----------------------->
+    
+        <div id="portfolio">
+            <div class="container">
+    
+                <h1 class="sub-title">My Work</h1><br>
+                <div class="worklist">
+    
+                    <div class="work">
+                        <img src = "https://www.tqmi.com/wp-content/uploads/2022/02/Data-Science-4.webp">
+                    <div class="layer">
+                        <h3>Data Science </h3>
+                        <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam convallis</p>
+                        <a href = "#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                    </div>
+                    <div class="work">
+                        <img src = "https://miro.medium.com/v2/resize:fit:1358/1*cG6U1qstYDijh9bPL42e-Q.jpeg">
+                        <div class="layer">
+                            <h3>Machine Learning </h3>
+                            <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam convallis</p>
+                            <a href = "#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+    
+                    </div>
+                    <div class="work">
+                        <img src = "https://thebulletin.org/wp-content/uploads/2023/08/AdobeStock_580829354-1024x683.jpeg">
+                        <div class="layer">
+                            <h3>Artificial Intelligence</h3>
+                            <p>Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Nullam convallis</p>
+                            <a href = "#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+    
+                    <a href = "#" class = "btn">See more</a>
+    
+            </div>
+    
+    
+
+
+</section>
+
+
+    </div>
+<!----------------------------Contact-------------------->
+
+<section id="contact">
+    <div class="contact" style="background-color: black;">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fas fa-paper-plane"></i> maleeshachandrasekara@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +94767169833</p>
+                    <div class="social">
+                        <a href="https://www.linkedin.com/in/maleesha-dinujaya?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3B9ZfQKxzzRiS%2BJF9v1vsmew%3D%3D">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="https://web.facebook.com/profile.php?id=100080694224273">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                        <a href="https://www.instagram.com/maleesha_dinujaya/">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+
+                    <a href="D:\SLTC\ICE\3rd Semester\Effective Communication\CV.pdf" download class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                
+                    <span id="msg"></span>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+</section>
+
+<div class="copyright">
+    <p>Copyright @ Maleesha Dinujaya.</p>
+</div>
+
+
+<script>
+
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname) {
+  for (var i = 0; i < tablinks.length; i++) {
+    tablinks[i].classList.remove("active-link");
+  }
+
+  for (var i = 0; i < tabcontents.length; i++) {
+    tabcontents[i].classList.remove("active-tab");
+  }
+
+  document.getElementById(tabname).classList.add("active-tab");
+  event.currentTarget.classList.add("active-link");
+}
+
+var text = "";
+        var typingDelay = 175;
+        var typingTextElement = document.getElementById("typing-text1");
+
+        animateTyping(text, typingTextElement, typingDelay);
+
+        function animateTyping(text, element, delay, callback) {
+    var index = 0;
+
+    function type() {
+        if (index < text.length) {
+            var char = text.charAt(index);
+            element.textContent += char;
+            index++;
+            setTimeout(type, delay);
+        } else {
+            if (callback) {
+                callback(); // Call the callback function when typing is complete
+            }
+        }
+    }
+
+    type();
+}
+
+var text1 = "Maleesha";
+var text2 = "from Sri Lanka";
+var typingDelay = 100;
+var typingTextElement1 = document.getElementById("typing-text1");
+var typingTextElement2 = document.getElementById("typing-text2");
+var cursorElement = document.querySelector(".cursor"); // Select the cursor using a class selector
+
+animateTyping(text1, typingTextElement1, typingDelay, function() {
+    animateTyping(text2, typingTextElement2, typingDelay, function() {
+        cursorElement.style.display = "none"; // Hide the cursor after typing the second text
+    });
+});
+
+
+
+    </script>
+
+<script>
+    function openMenu() {
+        var sidemenu = document.getElementById("sidemenu");
+        sidemenu.style.right = "0";
+    }
+
+    function opentab(tabName) {
+        var i, tabContents;
+        tabContents = document.getElementsByClassName("tab-contents");
+        for (i = 0; i < tabContents.length; i++) {
+            tabContents[i].style.display = "none";
+        }
+        document.getElementById(tabName).style.display = "block";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyVqvUwS2hD290IpRNc-gkaMTucQzRWVmbnNhB2yMTwaVISztQw0gXr0pf4dzhV9tLP/exec';
+    const form = document.forms['submit-to-google-sheet'];
+    const msg = document.getElementById("msg");
+
+    form.addEventListener('submit', e => {
+        e.preventDefault();
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+            .then(response => {
+                msg.innerHTML = "Message sent successfully";
+                setTimeout(function() {
+                    msg.innerHTML = "";
+                }, 5000);
+
+                form.reset();
+            })
+            .catch(error => console.error('Error!', error.message));
+    });
+</script>
+</body>
+</html>
